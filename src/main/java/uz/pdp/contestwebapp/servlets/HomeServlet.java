@@ -1,11 +1,12 @@
-package uz.pdp.contestwebapp;
+package uz.pdp.contestwebapp.servlets;
 
 import java.io.*;
+
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
 @WebServlet(name = "helloServlet", value = "/hello-servlet")
-public class HelloServlet extends HttpServlet {
+public class HomeServlet extends HttpServlet {
     private String message;
 
     public void init() {
